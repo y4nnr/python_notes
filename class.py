@@ -22,3 +22,19 @@ House.num_rooms = 7
 print(house.num_rooms)
 print(House.num_rooms)
 print(house.cost_evaluation(rate = 4))
+
+
+###########
+#Part II
+###########
+
+class MyFirstClass:
+    print("who wrote this?")
+    index = "Author-Book"
+
+    def hand_list(self, philosopher, book):
+        print(MyFirstClass.index)
+        print(philosopher + ' wrote the book: ' + book)
+
+whodunnit = MyFirstClass()
+whodunnit.hand_list("Sun Tzu", "The Art of War")
